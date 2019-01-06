@@ -89,3 +89,39 @@ li {
 .indent-code {
     margin-left: 15px;
 }
+
+header {
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid #F93912;
+    margin-right: 20px;
+}
+
+body {
+    display: flex;
+}
+
+h1 {
+    width: 275px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: column;
+}
+
+header nav ul li {
+    border-bottom: 1px solid black;
+    height: 50px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: darkslategray;
+    cursor: pointer;
+    font-size: 2rem;
+    padding-left: 20px;
+    padding-top: 10px;
+}
