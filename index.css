@@ -56,3 +56,36 @@ table {
 html {
     font-size: 62.5%;
 }
+
+body {
+    background-color: #FFFAFA;   
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    color: #F93912;
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+li {
+    font-size: 1.6rem;
+}
+
+.code {
+    background-color: #F5F5F5;
+}
+
+.code p {
+    font-family: "Courier New", Courier, monospace;
+}
+
+.indent-code {
+    margin-left: 15px;
+}
