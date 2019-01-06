@@ -61,10 +61,6 @@ body {
     background-color: #FFFAFA;   
 }
 
-h1 {
-    font-size: 3rem;
-}
-
 h2 {
     color: #F93912;
     font-size: 3rem;
@@ -90,31 +86,16 @@ li {
     margin-left: 15px;
 }
 
-header {
-    display: flex;
-    flex-direction: column;
-    border-right: 2px solid #F93912;
-    margin-right: 20px;
-}
-
-body {
-    display: flex;
-}
-
 h1 {
-    width: 275px;
-    padding-left: 20px;
-    padding-bottom: 20px;
-}
-
-header nav ul {
-    display: flex;
-    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #F93912;
+    font-size: 3.3rem;
 }
 
 header nav ul li {
     border-bottom: 1px solid black;
-    height: 50px;
+    padding: 20px 10px;
 }
 
 header nav ul li a {
@@ -122,6 +103,18 @@ header nav ul li a {
     color: darkslategray;
     cursor: pointer;
     font-size: 2rem;
-    padding-left: 20px;
-    padding-top: 10px;
+}
+
+header {
+    position: fixed;
+    width: 300px;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-right: 4px solid #F93912;
+    overflow-y: auto;
+}
+
+main {
+    margin-left: 325px;
 }
