@@ -64,14 +64,23 @@ body {
 h2 {
     color: #F93912;
     font-size: 3rem;
+    margin-bottom: 1.6rem;
 }
 
 p {
     font-size: 1.6rem;
+    line-height: 1.3;
+    margin-bottom: 1.3rem;
 }
 
-li {
+main ul {
+    list-style: disc inside;
+}
+
+main li {
     font-size: 1.6rem;
+    line-height: 1.3;
+    margin-bottom: 1.3rem;
 }
 
 .code {
@@ -117,4 +126,12 @@ header {
 
 main {
     margin-left: 325px;
+}
+
+.code p {
+    margin-bottom: .2rem;
+}
+
+.code {
+    margin-bottom: 5px;
 }
