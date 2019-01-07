@@ -73,6 +73,10 @@ p {
     margin-bottom: 1.3rem;
 }
 
+main {
+    width: 70%;
+}
+
 main ul {
     list-style: disc inside;
 }
@@ -85,6 +89,7 @@ main li {
 
 .code {
     background-color: #F5F5F5;
+    margin-bottom: 10px;
 }
 
 .code p {
@@ -102,19 +107,19 @@ h1 {
     font-size: 3.3rem;
 }
 
-header nav ul li {
+.nav nav ul li {
     border-bottom: 1px solid black;
     padding: 20px 10px;
 }
 
-header nav ul li a {
+.nav nav ul li a {
     text-decoration: none;
     color: darkslategray;
     cursor: pointer;
     font-size: 2rem;
 }
 
-header {
+.nav {
     position: fixed;
     width: 300px;
     top: 0;
@@ -132,6 +137,27 @@ main {
     margin-bottom: .2rem;
 }
 
-.code {
-    margin-bottom: 5px;
+@media (max-width:500px){
+
+    main {
+        margin-left: 150px;
+        width: 60%;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+        font-weight: bold;
+    }
+
+    .nav {
+        width: 145px;
+    }
+
+    .nav nav ul li {
+        padding: 10px 5px;
+    }
+
+    .nav nav ul li a {
+        font-size: 1.6rem;
+    }
 }
