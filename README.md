@@ -1,4 +1,4 @@
-###tech-documentation-page
+#tech-documentation-page
 
 Example of tech documentation page for practice.
 
